@@ -3,7 +3,7 @@ import jellyfish_icon from "/src/assets/logo/meduza.png";
 import manicure_icon from "/src/assets/icons/manicure.png";
 import pedicure_icon from "/src/assets/icons/pedicure.png";
 import gift_card_icon from "/src/assets/icons/gift-card.png";
-import logo from "../assets/logo/logo.png";
+import logo from "../assets/logo/Logo.png";
 import UseSelectedPhoto from "../hooks/UseSelectedPhoto";
 import { useEffect, useState } from "react";
 
