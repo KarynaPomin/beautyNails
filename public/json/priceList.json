@@ -1,0 +1,83 @@
+{
+  "manicure": [
+    {
+      "name": "Manicure hybrydowy",
+      "details": "(rozmiar S)",
+      "price": "110 zł"
+    },
+    {
+      "name": "Uzupełnienie żelowe",
+      "details": "",
+      "price": "120 zł"
+    },
+    {
+      "name": "Przedłużanie paznokcia",
+      "details": "(rozmiar S, M)",
+      "price": "200 zł"
+    },
+    {
+      "name": "Przedłużanie paznokcia",
+      "details": "(rozmiar L, XL)",
+      "price": "230 zł"
+    },
+    {
+      "name": "French / Babyboomer",
+      "details": "",
+      "price": "10 zł"
+    },
+    {
+      "name": "Zdobienie delikatne",
+      "details": "",
+      "price": "10 zł"
+    },
+    {
+      "name": "Zdobienie zaawansowane",
+      "details": "",
+      "price": "20+ zł"
+    },
+    {
+      "name": "Naprawa / Korekta paznokcia",
+      "details": "",
+      "price": "15 zł"
+    },
+    {
+      "name": "Ściągnięcie stylizacji",
+      "details": "(z manicure / bez)",
+      "price": "Z 60 / BEZ 40 zł"
+    }
+  ],
+  "pedicure": [
+    {
+      "name": "Pedicure bez malowania",
+      "details": "(klasyczne bez pięt)",
+      "price": "80 zł"
+    },
+    {
+      "name": "Pedicure bez malowania",
+      "details": "(klasyczne + pięty)",
+      "price": "120 zł"
+    },
+    {
+      "name": "Pedicure hybrydowe",
+      "details": "(bez pięt)",
+      "price": "120 zł"
+    },
+    {
+      "name": "Pedicure hybrydowe",
+      "details": "(klasyczne + pięty)",
+      "price": "160 zł"
+    },
+    {
+      "name": "Rekonstrukcja płytki paznokci stopy",
+      "details": "(rekonstrukcja płytki paznokcia stopy w zależności od stopnia uszkodzenia, oczyszczenie płytki, odbudowa paznokcia)",
+      "price": "20-40 zł"
+    }
+  ],
+  "bon podarunkowy": [
+    {
+      "name": "Bon podarunkowy — do wykorzystania na dowolną usługę z oferty.",
+      "details": "Bon podarunkowy obowiązuje na wszystkie usługi dostępne w ofercie salonu. Wartość bonu można wykorzystać jednorazowo lub przy kilku wizytach w okresie jego ważności",
+      "price": "110+ zł"
+    }
+  ]
+}
