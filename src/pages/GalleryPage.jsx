@@ -15,7 +15,6 @@ function GalleryPage() {
     <main>
       <h1 className="text-center mt-[10%]">Galeria</h1>
       
-
       <div className="grid 
         grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 
         gap-[10px] md:gap-[2%]
@@ -29,13 +28,13 @@ function GalleryPage() {
             }`}
           >
             <img
-              src={`gallery/${photo}`}
+              src={`gallery/result_${photo}`}
               alt="manicure"
               className="w-full h-full object-cover"
             />
             <div
               className="absolute inset-0 bg-[#5b768437] opacity-0 hover:opacity-100 transition"
-              onClick={() => openPhoto(`gallery/${photo}`)}
+              onClick={() => openPhoto(`gallery/result_${photo}`)}
             />
           </div>
         ))}

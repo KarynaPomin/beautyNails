@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import jellyfish_icon from "/src/assets/logo/meduza.png";
+import jellyfish_icon from "/src/assets/logo/meduza_white.png";
 import manicure_icon from "/src/assets/icons/manicure.png";
 import pedicure_icon from "/src/assets/icons/pedicure.png";
 import gift_card_icon from "/src/assets/icons/gift-card.png";
@@ -50,8 +50,8 @@ function MainPage() {
                 </Link>
             </div>
 
-            <div className="text-black bg-[#C0D0DD] flex flex-wrap justify-around mt-[5%] mb-[5%]">
-                <div className="w-full h-full min-w-[200px] min-h-[200px] max-w-[550px] max-h-[550px] bg-white rounded-full flex justify-center items-center shadow-md">
+            <div className="text-black bg-[#b8b8ff57] flex flex-wrap justify-around mt-[5%] mb-[5%] p-[2%]">
+                <div className="bg-[#fafafa98] w-full h-full min-w-[200px] min-h-[200px] max-w-[550px] max-h-[550px]  rounded-full flex justify-center items-center shadow-md">
                     <img src={logo} alt="logo" height="100px" />
                 </div>
 
@@ -79,7 +79,7 @@ function MainPage() {
 
                 {selectedPhoto && (
                     <div
-                    className="fixed inset-0 z-50 flex items-center justify-center bg-[#262a2db3]"
+                    className="fixed inset-0 z-50 flex items-center justify-center"
                     onClick={closePhoto}
                     >
                     <img

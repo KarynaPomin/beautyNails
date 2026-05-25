@@ -23,17 +23,28 @@ html, body, #root {
   padding: 0;
 }
 
-body, main, .bg-footer {
-  background: #F6F6F6;
+html, body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 30%, #b8b8ff 0%, transparent 40%),
+    radial-gradient(circle at 80% 20%, #9381ff 0%, transparent 40%),
+    radial-gradient(circle at 70% 80%, #ffd8be 0%, transparent 40%),
+    linear-gradient(to bottom right, #f5f5ff, #ffeedd);
+  background-attachment: fixed;
 }
 
 main {
   color: black;
 }
 
-.bg-footer {
+/* .bg-footer {
   @apply absolute inset-0 w-full h-full object-cover -z-10;
-}
+} */
 
 p {
   @apply text-[16px] max-w-2xl animate-fade-in
@@ -55,9 +66,9 @@ button {
 }
 
 .btn-primary {
-  @apply px-10 py-3 bg-[#C0D0DD] text-black shadow-xl rounded-lg border-0 text-center 
+  @apply px-10 py-3 bg-[#ffd8be] text-black shadow-xl rounded-lg border-0 text-center 
          text-[18px] sm:text-[22px] md:text-[26px] lg:text-[30px];
-  @apply hover:bg-[#5b768460] hover:text-white hover:scale-105 transition duration-700 ease-in-out;
+  @apply hover:bg-[#b8b8ff] hover:text-white hover:scale-105 transition duration-700 ease-in-out;
 }
 
 .nav-link {

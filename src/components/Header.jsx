@@ -33,7 +33,7 @@ const Header = ({ image, title, subtitle }) => {
               <Link
                 key={page.path}
                 to={page.path}
-                className="nav-link hover:text-gray-300 transition"
+                className="text-lg font-medium hover:text-[#ffd8be] hover:scale-105 transition duration-700 ease-in-out"
               >
                 {page.name}
               </Link>
@@ -55,7 +55,7 @@ const Header = ({ image, title, subtitle }) => {
                 key={page.path}
                 to={page.path}
                 onClick={() => setIsMenuOpen(false)}
-                className="text-lg font-medium hover:text-blue-200 hover:scale-105 transition duration-700 ease-in-out"
+                className="text-lg font-medium hover:text-[#ffd8be] hover:scale-105 transition duration-700 ease-in-out"
               >
                 {page.name}
               </Link>

@@ -9,7 +9,7 @@ function Footer() {
             <img 
                 src={bg_footer} 
                 alt="background" 
-                className="absolute inset-0 w-full h-full object-cover -z-10"
+                className="absolute inset-0 w-full h-full object-cover -z-10 opacity-50"
             />
 
             <div className="container mx-auto px-6 py-10 flex flex-col md:flex-row justify-between items-center md:items-start gap-10 z-10">
@@ -26,10 +26,10 @@ function Footer() {
                     sm:relative sm:bottom-auto sm:right-auto sm:mt-6 
                     md:absolute md:bottom-20 md:right-20
                 ">
-                    <a href="#" className="hover:scale-110 transition">
+                    <a href="https://www.instagram.com/meduza_beauty_l_p?igsh=Y2x2MjJvM215YjZp" target="blank" className="hover:scale-110 transition">
                         <img src={instagram_icon} alt="instagram" className="w-7 h-7" />
                     </a>
-                    <a href="#" className="hover:scale-110 transition">
+                    <a href="https://www.facebook.com/share/1M6VN7GxbR/" target="blank" className="hover:scale-110 transition">
                         <img src={facebook_icon} alt="facebook" className="w-7 h-7" />
                     </a>
                     <a href="#" className="hover:scale-110 transition">
