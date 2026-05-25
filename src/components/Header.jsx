@@ -13,11 +13,12 @@ const Header = ({ image, title, subtitle }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="relative w-full min-h-[50vh] h-[80vh] overflow-hidden flex flex-col">
+    <header className="relative w-full min-h-[50vh] h-[150vh] sm:h-[80vh] overflow-hidden flex flex-col">
+      
       <img
         src={image}
         alt="baner"
-        className="absolute inset-0 w-full h-full object-cover brightness-50"
+        className="absolute inset-0 scale-250 sm:scale-100 w-full h-[150vh] sm:h-full object-contain sm:object-cover brightness-50 rotate-90 sm:rotate-0"
       />
 
       <div className="relative z-10 h-full flex flex-col">
