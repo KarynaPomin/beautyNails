@@ -15,13 +15,13 @@ function ContactPage() {
 
         <div className="bg-gradient-to-r from-[#b8b8ff] to-[#9381FF] rounded-xl flex flex-col items-center justify-center p-4">
           <img src={tel_icon} alt="icon-tel" className='icon-contactUs' />
-          <p className="mt-2 text-center text-sm">+48 570 247 502</p>
+          <p className="mt-2 text-center text-sm">+48 123 456 789</p>
         </div>
 
         <div className="bg-gradient-to-r from-[#B8B8FF] to-[#9381FF] rounded-xl flex flex-col items-center justify-center p-4">
           <img src={location_icon} alt="icon-location" className='icon-contactUs' />
           <p className="mt-2 text-center text-sm">
-            ul. Kościuszki 37<br />62-300 Września
+            ul. Twoja Ulica 1<br />62-300 Września
           </p>
         </div>
 
@@ -32,7 +32,7 @@ function ContactPage() {
         <div className="sm:col-span-2 lg:col-span-2 bg-gradient-to-r from-[#B8B8FF] to-[#9381FF] rounded-xl flex flex-col items-center justify-center p-4">
           <img src={email_icon} alt="icon-email" className='icon-contactUs' />
           <p className="mt-2 text-center text-sm">
-            meduzalenapomin@gmail.com
+            beauty.studio@gmail.com
           </p>
         </div>
       </div>

@@ -16,9 +16,9 @@ function Footer() {
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
                     <h3 className="font-bold text-lg">KONTAKT</h3>
                     <h3 className="font-bold text-lg mt-1">MEDUZA OLENA POMIN</h3>
-                    <p className="mt-2">ul. Kościuszki 37</p>
+                    <p className="mt-2">ul. Twoja Ulica 1</p>
                     <p>62-300 Września</p>
-                    <p>tel. +48 570 247 502</p>
+                    <p>tel. +48 123 456 789</p>
                 </div>
 
                 <div className="
@@ -26,13 +26,13 @@ function Footer() {
                     sm:relative sm:bottom-auto sm:right-auto sm:mt-6 
                     md:absolute md:bottom-20 md:right-20
                 ">
-                    <a href="https://www.instagram.com/meduza_beauty_l_p?igsh=Y2x2MjJvM215YjZp" target="blank" className="hover:scale-110 transition">
+                    <a href="https://www.instagram.com" target="blank" className="hover:scale-110 transition">
                         <img src={instagram_icon} alt="instagram" className="w-7 h-7" />
                     </a>
-                    <a href="https://www.facebook.com/share/1M6VN7GxbR/" target="blank" className="hover:scale-110 transition">
+                    <a href="https://www.facebook.com" target="blank" className="hover:scale-110 transition">
                         <img src={facebook_icon} alt="facebook" className="w-7 h-7" />
                     </a>
-                    <a href="#" className="hover:scale-110 transition">
+                    <a href="https://www.tiktok.com" target="blank" className="hover:scale-110 transition">
                         <img src={tik_tok_icon} alt="tik-tok" className="w-7 h-7" />
                     </a>
                 </div>

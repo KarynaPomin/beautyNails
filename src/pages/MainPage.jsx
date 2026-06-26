@@ -13,13 +13,21 @@ function MainPage() {
 
     useEffect(() => {
         fetch("/json/gallery.json")
-        .then((res) => res.json())
-        .then((data) => {
-            const shuffled = data.sort(() => 0.5 - Math.random());
-            const randomThree = shuffled.slice(0, 3);
-            setGalleryPhotos(randomThree);
-        });
-    }, [])
+            .then((res) => res.json())
+            .then((data) => {
+                if (!Array.isArray(data)) return;
+
+                const validData = data.filter(Boolean);
+
+                const shuffled = [...validData].sort(() => Math.random() - 0.5);
+                const randomThree = shuffled.slice(0, 3);
+
+                setGalleryPhotos(randomThree);
+            })
+            .catch((err) => {
+                console.error("Gallery load error:", err);
+            });
+    }, []);
 
     return (
         <main className="border-1 border-[#c0d0dd00]">
@@ -69,10 +77,10 @@ function MainPage() {
                 >
                     {galleryPhotos.map((photo, index) => (
                         <img
-                            src={`gallery/${photo}`}
-                            alt="manicure"
+                            key={photo ?? index}
+                            src={`/gallery/${photo}`}
+                            alt={`gallery_${index}`}
                             className="w-full h-full object-cover"
-                            onClick={() => openPhoto(`gallery/${photo}`)}
                         />
                     ))}
                 </div>
